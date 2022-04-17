@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+} /* 消除游览器默认的边距，让外边距和内边距变成0 */
+
+.big_box{
+  position: relative;
+  height: 100vh; /* 是div高度100vh指的是页面窗口的100% */
+  background-image: url("photo/sky.png");
+  background-size:100% 100%;/* 设置图片的大小，两个100%分别是窗口的宽高占满。不设置会默认图片的大小像素，如果图片大小大于窗口大小就会只显示一部分，如果图片小于窗口，会复制多张图片填满窗口。 */
+}
+
+h1{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: "Segoe Script";
+  font-size: 250%;
+  padding: 45px;
+}
+.text1{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: "等线";
+  font-size: 100%;
+  padding: 30px;
+}
+.text2{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: "等线";
+  font-size: 100%;
+  padding: 3px;
+}
+div img{
+  width:250px;
+  height:250px;
+  position: relative;
+  left: 6cm;
+  margin:7px;
+}
+img:hover{
+  box-shadow:0px 0px 0px 3px rgba(0,0,0,0.5);
+  box-sizing: border-box;
+}
