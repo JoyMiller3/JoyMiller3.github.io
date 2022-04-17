@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music Box</title>
+  <script src="musicBox.js"></script>
+  <link href="musicBox.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="big_box">
+    <h1>Click the picture to explore your music trip.</h1>
+    <audio id="music1" src="music/music1.mp3" loop autoplay></audio>
+    <img src="http://ciweiyuedui.q.hao.ac:8062/data/uimgs/2018/95d4767e2a9c.jpg" alt="刺猬 - 火车驶向云外，梦安魂于九霄" onClick="play1()">
+    <audio id="music2" src="music/music2.mp3" loop autoplay></audio>
+    <img src="https://img2.doubanio.com/view/group_topic/l/public/p306838111.webp" alt="棱镜 - 这是我一生中最勇敢的瞬间" onClick="play2()">
+    <audio id="music3" src="music/music3.mp3" loop autoplay></audio>
+    <img src="https://p4.itc.cn/q_70/images03/20210129/df356d2d55584a359754af13b665027a.jpeg" alt="夏日入侵企画 - 想去海边" onClick="play3()">
+    <p class="text1">You can click the picture again to stop it and click another picture for a new song!</p>
+    <p class="text2">Click the button below to learn about the names of these songs.</p>
+    <center><button onclick="check()">Click me</button></center>
+  </div>
+</body>
+</html>
