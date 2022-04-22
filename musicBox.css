@@ -6,7 +6,7 @@
 .big_box{
   position: relative;
   height: 100vh; /* 是div高度100vh指的是页面窗口的100% */
-  background-image: url("photo/sky.png");
+  background-image: url("sky.png");
   background-size:100% 100%;/* 设置图片的大小，两个100%分别是窗口的宽高占满。不设置会默认图片的大小像素，如果图片大小大于窗口大小就会只显示一部分，如果图片小于窗口，会复制多张图片填满窗口。 */
 }
 
